@@ -1,5 +1,6 @@
 <img width="1500" height="90" alt="image" src="https://github.com/user-attachments/assets/f63e52c7-95b4-4785-919b-eac82bcfa434" />
 <img width="1536" height="1024" alt="ChatGPT Image Aug 14, 2025 at 03_27_40 PM" src="https://github.com/user-attachments/assets/256d8863-e11c-4990-a1ee-9bb53483b5fc" />
+\
 ## DATA DESCRIPTION AND SUMMARY
 
 - **Average Daily Rate (adr):** Total lodging revenue ÷ total number of nights stayed; used to measure average daily revenue from hotel rooms.
