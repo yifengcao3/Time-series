@@ -28,6 +28,24 @@ lead time, arrival date (year, month, week number, day of month), weekend nights
 ### 2. Multiple `adr` values for the same date
 - Group data by reservation status date and hotel type, then calculate the daily average price.
 
+## Results
+### Resort hotels show more seasonal ADR variation  
 
+<img width="501" height="366" alt="image" src="https://github.com/user-attachments/assets/fe44a9c8-54cf-446e-88aa-0ee7a5bea1df" />
 
+### Both resort and city hotels have increasing trends
 
+<img width="715" height="231" alt="image" src="https://github.com/user-attachments/assets/ada8865d-ee6f-47f3-b775-848d3dd49004" />
+
+### Neural Network performs best overall
+
+![image](https://github.com/user-attachments/assets/679795d1-c524-44db-b5e7-8529aad78bf7)
+
+<img width="637" height="250" alt="image" src="https://github.com/user-attachments/assets/eac08d87-500e-487b-ae5a-2ef1128e05a6" />
+
+## Conclusion
+- Resort hotels show more seasonal adr variation, and they have greater SD compared to City hotels
+
+- Both Resort and City hotels have increasing trends in the adr
+
+- Neural Network performs best among different models
