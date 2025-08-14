@@ -39,7 +39,14 @@ lead time, arrival date (year, month, week number, day of month), weekend nights
 
 ### Neural Network performs best overall
 
-![image](https://github.com/user-attachments/assets/679795d1-c524-44db-b5e7-8529aad78bf7)
+| Model                  | RMSE   |
+|------------------------|--------|
+| Automated Neural Network | 5.379  |
+| Neural Network         | 4.435  |
+| Automated ARIMA        | 13.413 |
+| ARIMA                  | 8.379  |
+| Ensemble1              | 7.847  |
+| Ensemble2              | 5.801  |
 
 <img width="637" height="250" alt="image" src="https://github.com/user-attachments/assets/eac08d87-500e-487b-ae5a-2ef1128e05a6" />
 
