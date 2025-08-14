@@ -1,5 +1,5 @@
 <img width="1500" height="90" alt="image" src="https://github.com/user-attachments/assets/f63e52c7-95b4-4785-919b-eac82bcfa434" />
-<img width="1536" height="1024" alt="ChatGPT Image Aug 14, 2025 at 03_27_40 PM" src="https://github.com/user-attachments/assets/256d8863-e11c-4990-a1ee-9bb53483b5fc" />
+<img width="1024" height="683" alt="ChatGPT Image Aug 14, 2025 at 03_27_40 PM" src="https://github.com/user-attachments/assets/256d8863-e11c-4990-a1ee-9bb53483b5fc" />
 
 
 ## DATA DESCRIPTION AND SUMMARY
@@ -16,3 +16,18 @@ lead time, arrival date (year, month, week number, day of month), weekend nights
 
 - **Average daily rate (adr):** The average daily rate is about 102, but the standard deviation is large, which indicates that the rate fluctuates.
 <img width="504" height="216" alt="image" src="https://github.com/user-attachments/assets/049870a1-5393-488c-a85f-16e1a03b108b" />
+
+## PREPARATION FOR THE DATASET
+
+### 1. Discontinuous time
+- **For the part with excessive missing data:**  
+  Filter data, retaining only records from July 1, 2015.
+- **For the part with fewer missing data:**  
+  Add missing dates and impute missing values in the `adr` column using the column's median (accounting for high standard deviation).
+
+### 2. Multiple `adr` values for the same date
+- Group data by reservation status date and hotel type, then calculate the daily average price.
+
+<img width="856" height="366" alt="image" src="https://github.com/user-attachments/assets/3058566e-ff87-4e12-ab88-0efbd0bd58ac" />
+
+
