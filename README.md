@@ -54,5 +54,5 @@ lead time, arrival date (year, month, week number, day of month), weekend nights
 
 - Neural Network performs best among different models
 
-## Descriptive statistics
+## Data License
 This project uses data from the [Hotel Booking Demand Dataset](https://www.kaggle.com/datasets/jessemostipak/hotel-booking-demand) licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Modifications include data cleaning and feature engineering.
