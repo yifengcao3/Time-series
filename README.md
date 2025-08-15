@@ -11,9 +11,6 @@
 **Other unused data variables:**  
 lead time, arrival date (year, month, week number, day of month), weekend nights, weekday nights, children, babies, meal, country, market segment, distribution channel, is repeated guest, previous cancellations, previous bookings not canceled, reserved room type, assigned room type, booking changes, deposit type, agent, company, days on waiting list, customer type, required car parking spaces, total special requests, reservation status.
 
-*Data source: Hotel Booking Demand Datasets from Kaggle*
-## Descriptive statistics
-
 - **Average daily rate (adr):** The average daily rate is about 102, but the standard deviation is large, which indicates that the rate fluctuates.
 <img width="1008" height="432" alt="image" src="https://github.com/user-attachments/assets/049870a1-5393-488c-a85f-16e1a03b108b" />
 
@@ -56,3 +53,6 @@ lead time, arrival date (year, month, week number, day of month), weekend nights
 - Both Resort and City hotels have increasing trends in the adr
 
 - Neural Network performs best among different models
+
+## Descriptive statistics
+This project uses data from the [Hotel Booking Demand Dataset](https://www.kaggle.com/datasets/jessemostipak/hotel-booking-demand) licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Modifications include data cleaning and feature engineering.
