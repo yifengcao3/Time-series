@@ -4,6 +4,8 @@
 
 ## DATA DESCRIPTION AND SUMMARY
 
+Understanding pricing dynamics is essential for hotel revenue management, as room rates fluctuate in response to seasonality, demand patterns, and market conditions. This study analyzes the Average Daily Rate (ADR) trends of City Hotels and Resort Hotels using time series methods, based on the Hotel Booking Demand dataset from Kaggle. After preprocessing the data and addressing missing values, we explore patterns, seasonal variations, and long-term trends. We also compare several forecasting models to identify the most effective approach for predicting future ADR.
+
 - **Average Daily Rate (adr):** Total lodging revenue ÷ total number of nights stayed; used to measure average daily revenue from hotel rooms.
 - **reservation status date:** Date when the last status was set.
 - **hotel:** Type of hotel; two categories: "City Hotel" and "Resort Hotel".
